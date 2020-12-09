@@ -1,0 +1,16 @@
+/* color #212121 */
+/* sec color #757575  */
+/*  footer color: rgba(255, 255, 255, 0.6) */
+/* logo color: #2196F3; */
+/* logo color: #FFFFFF;  */
+
+:root {
+  --primary-text-color: color #757575;
+  --title-text-color: color #212121;
+  --accent-color: color #2196f3;
+  --primary-white-color: color #ffffff;
+}
+
+.list {
+  list-style: none;
+}
