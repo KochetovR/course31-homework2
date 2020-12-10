@@ -1,16 +1,94 @@
-/* color #212121 */
-/* sec color #757575  */
+/*  primary color:  #757575 */
+/* sec color: #212121   */
 /*  footer color: rgba(255, 255, 255, 0.6) */
-/* logo color: #2196F3; */
-/* logo color: #FFFFFF;  */
+/* accent color: #2196F3; */
+/* logo color: #000000;  */
+/*  primary-white-color: #FFFFFF */
 
 :root {
-  --primary-text-color: color #757575;
-  --title-text-color: color #212121;
-  --accent-color: color #2196f3;
-  --primary-white-color: color #ffffff;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-black-color: #000000;
+  --footer-color: rgba(255, 255, 255, 0.6);
+
+  --backgroung-color: #ffffff;
+  --sec-backgroung-color: #f5f4fa;
+  --footer-backgroung-color: #2f303a;
+  --button-backgroung-color:#2196f3;
 }
 
+body {
+  background-color: var(--backgroung-color);
+  color: var(--primary-text-color);
+}
+
+h2,
+h3 {
+  color: var(--title-text-color);
+}
+
+/* header */
+.logo {
+  color: var(--accent-color);
+}
+
+.logo-type {
+  color: var(--primary-black-color);
+}
+
+.nav-link {
+  color: var(--title-text-color);
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--accent-color);
+}
+/* не работает active. почему? */
+.nav-link:active {
+  color: var(--accent-color);
+}
+.nav-contacts {
+  color: var(--primary-text-color);
+}
+
+.nav-contacts:focus,
+.nav-contacts:hover {
+  color: var(--accent-color);
+}
+
+/* hero */
+
+.hero {
+  color: var(--primary-white-color);
+}
+/* main */
+.company {
+  background-color: var(--sec-backgroung-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--footer-backgroung-color);
+}
+.logo-footer {
+  color: var(--primary-white-color);
+}
+.footer-contacts {
+  color: var(--footer-color);
+}
+/* portfolio */
+.button {
+  background-color: var(--sec-backgroung-color);
+  color: var(--title-text-color);
+}
+.button:focus,
+.button:hover {
+  background-color: var(--button-backgroung-color);
+  color: var(--primary-white-color);
+}
+}
 .list {
   list-style: none;
 }
