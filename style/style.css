@@ -163,6 +163,7 @@ h3 {
 .footer-address {
   color: var(--primary-white-color);
   line-height: 1.71;
+  font-style: normal;
 }
 .footer-contacts {
   color: var(--footer-color);
